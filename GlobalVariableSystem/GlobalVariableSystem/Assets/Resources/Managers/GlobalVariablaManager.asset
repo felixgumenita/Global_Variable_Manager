@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e59608ad40b3d4fa9b2fbe5be6e66e, type: 3}
+  m_Name: GlobalVariablaManager
+  m_EditorClassIdentifier: 
+  VariableNameLabel: Name
+  VariableDescriptionLabel: Variable Description
+  SelectedContent: 1
+  variableType: 0
+  Variables:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  references:
+    version: 1
+    00000000:
+      type: {class: VariableTypeBool, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Bool
+        VariableDescription: This bool is false
+        VariableType: 0
+        VariableID: 0
+        BoolValue: 0
+    00000001:
+      type: {class: VariableTypeBool, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Bool 2
+        VariableDescription: This bool is true
+        VariableType: 0
+        VariableID: 1
+        BoolValue: 1
+    00000002:
+      type: {class: VariableTypeInt, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Integiour
+        VariableDescription: This int is 0
+        VariableType: 1
+        VariableID: 2
+        IntValue: 0
+    00000003:
+      type: {class: VariableTypeInt, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Integiour 2
+        VariableDescription: This int is 2
+        VariableType: 1
+        VariableID: 3
+        IntValue: 2
+    00000004:
+      type: {class: VariableTypeString, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: String
+        VariableDescription: This string is empty
+        VariableType: 3
+        VariableID: 4
+        StringValue: ' '
+    00000005:
+      type: {class: VariableTypeString, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: String 2
+        VariableDescription: This string is Felix
+        VariableType: 3
+        VariableID: 5
+        StringValue: ' Felix'
+    00000006:
+      type: {class: VariableTypeFloat, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Float
+        VariableDescription: This float is 0
+        VariableType: 2
+        VariableID: 6
+        FloatValue: 0
+    00000007:
+      type: {class: VariableTypeFloat, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Float 2
+        VariableDescription: This float is 0.15f
+        VariableType: 2
+        VariableID: 7
+        FloatValue: 0.25
+    00000008:
+      type: {class: VariableTypeVector, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: Vector
+        VariableDescription: This vector is zero
+        VariableType: 4
+        VariableID: 8
+        X: 0
+        Y: 0
+        Z: 0
+    00000009:
+      type: {class: VariableTypeVector, ns: , asm: Assembly-CSharp}
+      data:
+        VariableName: 'Vector 2 '
+        VariableDescription: This vector is 0,15,-45
+        VariableType: 4
+        VariableID: 9
+        X: 0
+        Y: 15
+        Z: -45
