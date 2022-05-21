@@ -342,7 +342,7 @@ namespace GlobalVariable
         #endregion
 
         #region Private Function
-        
+
         #endregion
 
     }
